@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 573c99043b853ae4a86043c9bd4b3513
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_l_shoulder_1
+    100002: arm_l_shoulder_2
+    100004: arm_r_shoulder_1
+    100006: arm_r_shoulder_2
+    100008: joint_arm_l_shoulder
+    100010: joint_arm_r_shoulder
+    100012: joint_head_1
+    100014: joint_head_2
+    100016: joint_main
+    100018: joint_neck_1
+    100020: joint_pelvis
+    100022: joint_shouldercenter
+    100024: joint_spine_1
+    100026: joint_spine_2
+    100028: //RootNode
+    100030: torso_chest
+    100032: torso_head
+    100034: torso_neck_lower
+    100036: torso_neck_upper
+    100038: torso_waistjoint_lower
+    100040: torso_waistjoint_upper
+    400000: arm_l_shoulder_1
+    400002: arm_l_shoulder_2
+    400004: arm_r_shoulder_1
+    400006: arm_r_shoulder_2
+    400008: joint_arm_l_shoulder
+    400010: joint_arm_r_shoulder
+    400012: joint_head_1
+    400014: joint_head_2
+    400016: joint_main
+    400018: joint_neck_1
+    400020: joint_pelvis
+    400022: joint_shouldercenter
+    400024: joint_spine_1
+    400026: joint_spine_2
+    400028: //RootNode
+    400030: torso_chest
+    400032: torso_head
+    400034: torso_neck_lower
+    400036: torso_neck_upper
+    400038: torso_waistjoint_lower
+    400040: torso_waistjoint_upper
+    2300000: arm_l_shoulder_1
+    2300002: arm_l_shoulder_2
+    2300004: arm_r_shoulder_1
+    2300006: arm_r_shoulder_2
+    2300008: torso_chest
+    2300010: torso_head
+    2300012: torso_neck_lower
+    2300014: torso_neck_upper
+    2300016: torso_waistjoint_lower
+    2300018: torso_waistjoint_upper
+    3300000: arm_l_shoulder_1
+    3300002: arm_l_shoulder_2
+    3300004: arm_r_shoulder_1
+    3300006: arm_r_shoulder_2
+    3300008: torso_chest
+    3300010: torso_head
+    3300012: torso_neck_lower
+    3300014: torso_neck_upper
+    3300016: torso_waistjoint_lower
+    3300018: torso_waistjoint_upper
+    4300000: torso_head
+    4300002: torso_neck_upper
+    4300004: torso_neck_lower
+    4300006: arm_l_shoulder_2
+    4300008: arm_r_shoulder_2
+    4300010: arm_l_shoulder_1
+    4300012: arm_r_shoulder_1
+    4300014: torso_chest
+    4300016: torso_waistjoint_upper
+    4300018: torso_waistjoint_lower
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

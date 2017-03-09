@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D596D48E-7226-8067-C8AC-F1614F5C8FA0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Level 3 Prefabs\Rail Cart Mechanisms\ControlSwitch.cs" />
+     <Compile Include="Assets\Level 3 Prefabs\Rail Cart Mechanisms\PathControlAI.cs" />
+     <Compile Include="Assets\Level 3 Prefabs\Rail Cart Mechanisms\TrackVisualization.cs" />
+     <Compile Include="Assets\Level 3 Prefabs\Rail Cart Mechanisms\cNode.cs" />
+     <Compile Include="Assets\Level 3 Prefabs\Rail Cart Mechanisms\cSwitch.cs" />
+     <Compile Include="Assets\MinecartIndicator.cs" />
+     <Compile Include="Assets\Scripts\AI\CeilingCrawler.cs" />
+     <Compile Include="Assets\Scripts\AI\Crawler.cs" />
+     <Compile Include="Assets\Scripts\AI\DetectionAI.cs" />
+     <Compile Include="Assets\Scripts\AI\Node.cs" />
+     <Compile Include="Assets\Scripts\AI\ObeliskAI.cs" />
+     <Compile Include="Assets\Scripts\AI\OrbAI.cs" />
+     <Compile Include="Assets\Scripts\AI\PathingAI.cs" />
+     <Compile Include="Assets\Scripts\CamFollow2D.cs" />
+     <Compile Include="Assets\Scripts\CamFollow3D.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\CheckpointSystem.cs" />
+     <Compile Include="Assets\Scripts\DeathTrigger.cs" />
+     <Compile Include="Assets\Scripts\DynamicMagneticObject.cs" />
+     <Compile Include="Assets\Scripts\EnemyTargeting.cs" />
+     <Compile Include="Assets\Scripts\LevelGoalObject.cs" />
+     <Compile Include="Assets\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\Scripts\Magnetism.cs" />
+     <Compile Include="Assets\Scripts\MinecartMechanic.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\PlayerControls2D.cs" />
+     <Compile Include="Assets\Scripts\PlayerControls3D.cs" />
+     <Compile Include="Assets\Scripts\PlayerPlatform.cs" />
+     <Compile Include="Assets\Scripts\SimpleAIMovement.cs" />
+     <Compile Include="Assets\Scripts\SlideShow.cs" />
+     <Compile Include="Assets\Scripts\Spike.cs" />
+     <Compile Include="Assets\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\Scripts\TimeMaterials.cs" />
+     <Compile Include="Assets\Scripts\TimeSwitching.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
